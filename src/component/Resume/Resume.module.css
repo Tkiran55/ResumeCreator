@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    padding: 50px;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container button {
+    margin-top: 10px;
+    background-color: red;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 200ms;
+    box-shadow: 0px 0px 3px #ffffff;
+    border: none;
+    outline: none;
+    width: fit-content;
+}
+
+.container1, .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+}
+
+.heading1, .heading2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.forms1 {
+    margin: 0;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    text-justify: auto;
+}
+
+.para{
+    line-height: 1.5;
+}
+
+.border i {
+    border: 0;
+    color: #1788f2;
+}
+
+.line {
+    border-top: 1px solid #1788f2;
+    width: 100%;
+}
+.space{
+    padding: 2px;
+}
+
+.forms1 h1, h2, h3 {
+    font-size: inherit;
+    font-weight: bold;
+    
+}
+
+.forms1 h1 {
+    font-size: 40px;
+    color: #1788f2;
+}
+
+.forms1 h2 {
+    font-size: 30px;
+    color: #1788f2;
+}
+
+.forms1 h3 {
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 40px;
+    list-style-type:disc;;
+}
+
+.skillslist {
+    list-style-type: disc;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+  }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .container .heading1{
+        font-size: 30px;
+        
+    } 
+    .container2 .heading2{
+        font-size: 30px;
+    }
+
+    .forms1 {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .forms1 {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    .skillslist {
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+}
