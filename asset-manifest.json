@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ResumeCreator/static/css/main.1f59eb33.css",
+    "main.js": "/ResumeCreator/static/js/main.4c31d165.js",
+    "static/js/239.0d25710d.chunk.js": "/ResumeCreator/static/js/239.0d25710d.chunk.js",
+    "static/js/213.64ceef63.chunk.js": "/ResumeCreator/static/js/213.64ceef63.chunk.js",
+    "static/js/732.c52f1e59.chunk.js": "/ResumeCreator/static/js/732.c52f1e59.chunk.js",
+    "static/js/453.77dc5476.chunk.js": "/ResumeCreator/static/js/453.77dc5476.chunk.js",
+    "static/media/resume.webp": "/ResumeCreator/static/media/resume.489785655a9d4a871545.webp",
+    "index.html": "/ResumeCreator/index.html",
+    "main.1f59eb33.css.map": "/ResumeCreator/static/css/main.1f59eb33.css.map",
+    "main.4c31d165.js.map": "/ResumeCreator/static/js/main.4c31d165.js.map",
+    "239.0d25710d.chunk.js.map": "/ResumeCreator/static/js/239.0d25710d.chunk.js.map",
+    "213.64ceef63.chunk.js.map": "/ResumeCreator/static/js/213.64ceef63.chunk.js.map",
+    "732.c52f1e59.chunk.js.map": "/ResumeCreator/static/js/732.c52f1e59.chunk.js.map",
+    "453.77dc5476.chunk.js.map": "/ResumeCreator/static/js/453.77dc5476.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f59eb33.css",
+    "static/js/main.4c31d165.js"
+  ]
+}
