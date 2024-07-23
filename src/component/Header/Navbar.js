@@ -6,6 +6,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const handleLinkClick = () => {
+    // Navigate back if the current path is '/About'
     if (location.pathname === '/About') {
       window.history.back();
     }
@@ -15,18 +16,18 @@ const Navbar = () => {
     <div>
       <nav className={styles.navbar}>
         <span className={styles.logo}>Resu_me</span>
-          <div className={styles.linkContainer}>
-            <Link
-              className={styles.link}
-              to='/About'
-              onClick={handleLinkClick}
-            >
-            <i className="fa-solid fa-caret-down">^_^</i>
-            </Link>
-          </div>
+        <div className={styles.linkContainer}>
+          <Link
+            className={styles.link}
+            to='/About'
+            onClick={handleLinkClick}
+          >
+            <i className="fa-solid fa-caret-down" aria-hidden="true"></i>
+          </Link>
+        </div>
       </nav>
     </div>
-  )
+  );
 };
 
 export default Navbar;
